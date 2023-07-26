@@ -1,0 +1,57 @@
+.container{
+    
+    width: 1300px;
+    height: 800px;
+    margin: 10px auto;
+  
+
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.previewSection{
+   width: 40%;
+   height: 90%;
+  
+}
+.ProductDetails{
+    width: 55%;
+    height: 90%;
+   
+
+}
+.PrevieImage1{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.PreviewImgA{
+    height: 140px;
+    width: 120px;
+    cursor: pointer;
+}
+.imgPreview{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.cartButton{
+    margin-top: 40px;
+    padding: 10px 40px;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.active {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 150, 136);
+    border-image: initial;
+}
+
+
