@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 800px;
+            height: 600px;
+            margin: 10px auto;
+            background-color: aqua;
+            
+        }
+        #heading{
+            background-color: bisque;
+            text-align: center;
+            
+        }
+        label{
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="heading">Prepare your To-Do List </h1>
+
+        <label for="input1">Enter Your Task</label>
+        <input id="input1" type="text">
+        <Button onclick="AddTask()">Add Task</Button>
+
+        <ul id="lists">
+          
+        </ul>
+
+
+        <Button onclick="RemoveAll()">Remove All Task </Button>
+
+        <Button onclick="Remove1st()">Remove 1st Task</Button>
+        <button onclick=" RemoveLast()">Remove Last Task</button>
+
+
+    </div>
+    
+
+
+    <script src="/ToDoList/Scripting.js"></script>
+</body>
+</html>

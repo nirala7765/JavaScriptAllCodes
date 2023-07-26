@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    visibility: hidden;
+}
+h1{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formBox{
+    width: 500px;
+   
+    margin: 50px auto;
+    background-color: aqua;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+}
+
+.formitem{
+   margin: 15px 10px;
+   
+
+
+}
+
+label{
+    font-size: 25px;
+    color: rgb(15, 18, 4);
+   
+
+}
+input{
+    width: 80%;
+  
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+    
+    
+}
+
+.btnsbmit{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px 180px;
+
+    
+}

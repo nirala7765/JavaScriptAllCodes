@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+
+        function alerBox(){
+            alert("Hello Nirala How Your Coding Journey is Going")
+
+        }
+
+        function submit(){
+            let name = document.getElementById("input1")
+           let response = confirm("Are you sure want to submit")
+        //    console.log(response)
+
+        if(response==true){
+            alert("Form Submitted")
+        }else{
+            alert("Form not submitted Try again")
+        }
+
+
+        }
+
+
+    </script>
+</head>
+<body>
+
+    <h1>Hello Developers</h1>
+
+    <Button onclick="alerBox()">Click me </Button>
+    <br>
+    <br>
+
+    <input id="input1" type="text"> <button onclick="submit()">Submit</button>
+    
+</body>
+</html>

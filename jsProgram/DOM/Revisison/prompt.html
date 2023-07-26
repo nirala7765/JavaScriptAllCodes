@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        function calculate(){
+            let length = prompt("What is length of rectangle : " )
+            let width = prompt("What is Width of rectangle : " )
+
+            let area = length*width;
+
+            let para = document.getElementById("p1")
+            para.innerText = area;
+            para.style.color="red"
+            para.style.fontSize="45px";
+        }
+
+
+    </script>
+</head>
+<body>
+    <button onclick="calculate()">Submit</button>
+
+    <p id="p1"></p>
+</body>
+</html>
