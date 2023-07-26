@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/FormValidation/styling.css">
+</head>
+
+<body>
+
+    <div class="formBox">
+        <form action="">
+
+            <h1>Registered With Us</h1>
+            <div class="formitem">
+                <label for="username">Username</label>
+                <br>
+                <input type="text" id="uName" placeholder="Create a Username" required>
+                <br>
+                <span id="uNameError">Error</span>
+            </div>
+
+
+            <div class="formitem">
+                <label for="name">Name</label><br>
+                <input type="text" id="Name" placeholder="Enter Name" required>
+                <br>
+                <span id="NameError">Error</span>
+            </div>
+            <div class="formitem">
+                <label for="Email">Email</label><br>
+                <input type="emailEmailErrr" id="Email" placeholder="Enter Email" required>
+                <br>
+                <span id="EmailError">Error</span>
+            </div>
+            <div class="formitem">
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="password" placeholder="Create a password" required>
+                <br>
+                <span id="passwordError">Error</span>
+            </div>
+            <div class="formitem">
+                <label for="cnfpasword">Confirm Password</label>
+                <br>
+              
+                <input type="password" id="cnfpass" placeholder="Re-Enter Password" required>
+                <br>
+                <span id="cnfpError">Error</span>
+            </div>
+
+            <Button  onclick="formvalidation()" class="btnsbmit">Submit</Button>
+
+
+        </form>
+    </div>
+
+<script src="/FormValidation/scripting.js"></script>
+</body>
+
+</html>
