@@ -107,42 +107,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-// /// preview images
-
-// let heading = document.createElement("h3");
-// heading.innerText = "product preview";
-
-// let div = document.createElement("div");
-// div.classList.add("previewimg");
-
-// for (let i = 0; i < productData.photos.length; i++) {
-//   let image = document.createElement("img");
-//   image.id = "img" + i;
-//   image.src = productData.photos[i];
-//   image.classList.add("image");
-//   div.appendChild(image);
-// }
-
-// let productPreview = document.createElement("div");
-// productPreview.classList.add("product-preview");
-// productPreview.appendChild(heading);
-// productPreview.appendChild(div);
-// productdescription.appendChild(productPreview);
-
-// let image = document.querySelectorAll(".image");
-// let previewImg = document.querySelector(".previewimg");
-// image.forEach((element) => {
-//   element.addEventListener("click", () => {
-//     let productImg = document.querySelector("#productimg");
-//     productImg.src = element.src;
-//     for (let i = 0; i < image.length; i++) {
-//       image[i].classList.remove("active");
-//     }
-//     element.classList.add("active");
-//   });
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   image[0].classList.add("active");
-// });
 
