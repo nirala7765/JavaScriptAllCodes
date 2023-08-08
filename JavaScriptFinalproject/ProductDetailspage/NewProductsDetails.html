@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+    <title>Shopping App</title>
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Homepage/style.css" />
+    <link rel="stylesheet" href="/ProductDetailspage/styling.css" />
+    <link rel="stylesheet" href="/ProductDetailspage/Style.css">
+    <link rel="stylesheet" href="/ProductDetailspage/pages.css">
+</head>
+<body>
+    <div id="top-bar">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="/Homepage/index.html">
+                <h4><span>SHOP</span>LANE</h4>
+            </a>
+        </div>
+        <!-- Menu Items -->
+        <ul class="nav-links">
+            <li><a href="/Homepage/index.html">Home</a></li>
+            <li><a href="/Homepage/index.html#clothing">Clothings</a></li>
+            <li><a href="/Homepage/index.html#accessories">Accessories</a></li>
+        </ul>
+        <!-- Icons -->
+        <div class="icons">
+            <i class="fa fa-search"></i>
+            <div class="cart" id="cartIcon">
+                <a href="/checkout.html">
+                    <!-- <i class="fa fa-shopping-cart">
+                        <span id="cart-count"></span>
+                    </i> -->
+                    <img class="fa fa-shopping-cart" src="Shopping Cart.svg" alt="" height="40px" width="40px">
+                    <span id="cart-count"></span>
+
+                </a>
+            </div>
+            
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section>
+            <div class="product-wrapper">
+                <div id="product-image">
+                    <div class="image-wrapper">
+                        <img id="product-preview" src="../assets/default-product.png" />
+                    </div>
+                </div>
+                <div id="product-details">
+                    <h1 id="product-title">Product Title</h1>
+                    <h1 id="product-brand">Product Brand</h1>
+                    <h4 id="pricetag" class="section-heading">Price: Rs <p id="product-price">XXXX</p></h4>
+                    <h4 id="DiscTag" class="section-heading">Description</h4>
+                    <p id="description">Product Description</p>
+                    <h4 id="ProductPriviwTag" class="section-heading">Product Preview</h4>
+                    <div id="product-images">
+                        <!-- <img src="../assets/default-product.png" /> -->
+                    </div>
+
+                    <button id="btn-add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="online-store">
+            <li>
+                <h3>Online Store</h3>
+            </li>
+            <li><a href="#">Men Clothing</a></li>
+            <li><a href="#">Women Clothing</a></li>
+            <li><a href="#">Men Accessories</a></li>
+            <li><a href="#">Women Accessories</a></li>
+        </ul>
+        <ul class="helpful-links">
+            <li>
+                <h3>Helpful Links</h3>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="patners">
+            <li>
+                <h3>Patners</h3>
+            </li>
+            <li><a href="#">Zara</a></li>
+            <li><a href="#">Pantaloons</a></li>
+            <li><a href="#">Levis</a></li>
+            <li><a href="#">Ucb</a></li>
+            <li><a href="#">+ Many More</a></li>
+        </ul>
+        <ul class="address">
+            <li>
+                <h3>Address</h3>
+            </li>
+            <li>Building 101</li>
+            <li>Central Avenue</li>
+            <li>LA - 902722</li>
+            <li>United States</li>
+
+        </ul>
+        <img id="edprlogo" src="/Homepage/img/edProjectlogo.png" alt="" height="60px" width="150px">
+    </footer>
+    
+  
+    <script src="/Homepage/index.js"></script>
+    <script src="/ProductDetailspage/scripting.js"></script>
+    <script src="/Placeorder.js"></script>
+</body>
+</html>

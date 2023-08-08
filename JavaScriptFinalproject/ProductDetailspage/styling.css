@@ -1,0 +1,126 @@
+.container{
+    
+    width: 1300px;
+    height: 800px;
+    margin: 30px auto;
+
+  
+
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.previewSection{
+   width: 40%;
+   height: 90%;
+  
+}
+.ProductDetails{
+    width: 55%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   
+
+}
+.PrevieImage1{
+    width: 90%;
+    height: 80%;
+    
+}
+
+.PreviewImgA{
+    height: 120px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0 8px;
+    padding: 6px;
+
+
+}
+.imgPreview{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.cartButton{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.active {
+    border-width: 2px;
+    border-style: solid;
+    border-color:  lightseagreen;
+    border-image: initial;
+}
+#ProducName{
+    font-size: 50px;
+    font-weight: 200;
+    /* padding-top: 10px;
+    padding-bottom: 15px; */
+
+
+}
+
+#Pbrand{
+
+    color: gray;
+    font-size: 25px;
+    font-weight: 200;
+    
+    /* padding-bottom: 25px; */
+
+
+}
+
+#PriceSection{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#Pprice{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.791);
+    font-weight: 200;
+}
+
+#PriceCost{
+    font-size: 25px;
+    color: rgba(67, 200, 156, 0.969);
+
+    /* padding-bottom: 25px; */
+}
+
+#Discription{
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
+}
+#dicDetails{
+    font-size: 25px;
+    font-weight: 200;
+}
+#PpRiview{
+    font-size: 25px;
+    font-weight: 200;
+    color: black;
+}
+
+
+
